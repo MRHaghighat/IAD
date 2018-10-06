@@ -15,7 +15,7 @@ const translate = {
     },
     ForgotPassword:
     {
-        fa:"فراموش کردم!",
+        fa:"فراموش کردم !",
         en:"Forgot password"
     },
     Login:

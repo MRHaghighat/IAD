@@ -2350,7 +2350,8 @@ input[type="button"].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: 100%; }
+  width: 100%;
+  direction: ltr; }
   .input-group > .form-control,
   .input-group > .custom-select,
   .input-group > .custom-file {
@@ -3099,7 +3100,8 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 1.25rem; 
+direction: rtl;}
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -3191,7 +3193,8 @@ input[type="button"].btn-block {
     margin-bottom: 15px; }
   @media (min-width: 576px) {
     .card-group {
-      flex-flow: row wrap; }
+      flex-flow: row wrap; 
+    direction: ltr;}
       .card-group > .card {
         flex: 1 0 0%;
         margin-bottom: 0; }

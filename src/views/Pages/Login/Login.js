@@ -33,10 +33,10 @@ class Login extends Component {
                       </InputGroup>
                       <Row>
                         <Col xs="6">
-                          <Button color="primary" className="px-4">{translate.Login.fa}</Button>
+                        <Button color="link" className="px-0">{translate.ForgotPassword.fa}</Button>
                         </Col>
-                        <Col xs="6" className="text-right">
-                          <Button color="link" className="px-0">{translate.ForgotPassword.fa}</Button>
+                        <Col xs="6" className="text-left">
+                          <Button color="primary" className="px-4">{translate.Login.fa}</Button>
                         </Col>
                       </Row>
                     </Form>

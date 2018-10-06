@@ -11,21 +11,21 @@ class Register extends Component {
               <Card className="mx-4">
                 <CardBody className="p-4">
                   <Form>
-                    <h1>Register</h1>
-                    <p className="text-muted">Create your account</p>
+                    <h1>کاربر جدید</h1>
+                    <p className="text-muted">ایجاد یک حساب کاربری جدید</p>
                     <InputGroup className="mb-3">
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="icon-user"></i>
                         </InputGroupText>
                       </InputGroupAddon>
-                      <Input type="text" placeholder="Username" autoComplete="username" />
+                      <Input type="text" placeholder="نام کاربری" autoComplete="username" />
                     </InputGroup>
                     <InputGroup className="mb-3">
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>@</InputGroupText>
                       </InputGroupAddon>
-                      <Input type="text" placeholder="Email" autoComplete="email" />
+                      <Input type="text" placeholder="پست الکترونیک" autoComplete="email" />
                     </InputGroup>
                     <InputGroup className="mb-3">
                       <InputGroupAddon addonType="prepend">
@@ -33,7 +33,7 @@ class Register extends Component {
                           <i className="icon-lock"></i>
                         </InputGroupText>
                       </InputGroupAddon>
-                      <Input type="password" placeholder="Password" autoComplete="new-password" />
+                      <Input type="password" placeholder="رمز عبور" autoComplete="new-password" />
                     </InputGroup>
                     <InputGroup className="mb-4">
                       <InputGroupAddon addonType="prepend">
@@ -41,19 +41,19 @@ class Register extends Component {
                           <i className="icon-lock"></i>
                         </InputGroupText>
                       </InputGroupAddon>
-                      <Input type="password" placeholder="Repeat password" autoComplete="new-password" />
+                      <Input type="password" placeholder="تکرار رمز عبور" autoComplete="new-password" />
                     </InputGroup>
-                    <Button color="success" block>Create Account</Button>
                   </Form>
                 </CardBody>
                 <CardFooter className="p-4">
                   <Row>
-                    <Col xs="12" sm="6">
+                  <Button color="success" block>ایجاد کن !</Button>
+                    {/* <Col xs="12" sm="6">
                       <Button className="btn-facebook" block><span>facebook</span></Button>
                     </Col>
                     <Col xs="12" sm="6">
                       <Button className="btn-twitter" block><span>twitter</span></Button>
-                    </Col>
+                    </Col> */}
                   </Row>
                 </CardFooter>
               </Card>
