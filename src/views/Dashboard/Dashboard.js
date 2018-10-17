@@ -1148,7 +1148,7 @@ class Dashboard extends Component {
               </CardBody>
             </Card>
           </Col>
-        </Row>
+        </Row> */}
       </div>
     );
   }

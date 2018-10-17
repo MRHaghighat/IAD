@@ -1,17 +1,17 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
+      name: 'داشبورد',
       url: '/dashboard',
       icon: 'icon-speedometer',
       badge: {
-        variant: 'info',
-        text: 'NEW',
+        variant: 'warning',
+        text: '3',
       },
     },
     {
       title: true,
-      name: 'Theme',
+      name: 'کاربردها',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
         attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
@@ -30,7 +30,7 @@ export default {
     },
     {
       title: true,
-      name: 'Components',
+      name: 'تنظیمات',
       wrapper: {
         element: '',
         attributes: {},

@@ -7788,10 +7788,10 @@ canvas {
 .app-header {
   position: relative;
   flex-direction: row;
-  height: 55px;
+  height: 50px;
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: #2b3643;
   border-bottom: 1px solid #c8ced3; }
   .app-header .navbar-brand {
     display: inline-flex;
@@ -8807,7 +8807,7 @@ html:not([dir="rtl"]) .aside-menu {
   margin-right: -250px; }
 
 html[dir="rtl"] .sidebar {
-  margin-right: -200px; }
+  margin-right: -217px; }
 
 html[dir="rtl"] .aside-menu {
   left: 0;
@@ -8819,14 +8819,14 @@ html[dir="rtl"] .aside-menu {
     z-index: 1020;
     width: 100%; }
   .header-fixed .app-body {
-    margin-top: 55px; }
+    margin-top: 50px; }
   .sidebar-fixed .sidebar {
     position: fixed;
     z-index: 1019;
     width: 200px;
     height: 100vh; }
   .sidebar-fixed .app-header + .app-body .sidebar {
-    height: calc(100vh - 55px); }
+    height: calc(100vh - 50px); }
   .sidebar-compact .sidebar {
     flex: 0 0 150px; }
   .sidebar-compact.sidebar-fixed .sidebar {
@@ -9139,7 +9139,7 @@ html[dir="rtl"] .aside-menu-show.breadcrumb-fixed .breadcrumb {
   html:not([dir="rtl"]) .aside-menu-lg-show.breadcrumb-fixed .breadcrumb {
     right: 250px; }
   html[dir="rtl"] .sidebar-lg-show .sidebar {
-    margin-right: 0; }
+    margin-right: -17px; }
   html[dir="rtl"] .sidebar-lg-show.sidebar-fixed .main,
   html[dir="rtl"] .sidebar-lg-show.sidebar-fixed .app-footer {
     margin-right: 200px; }
