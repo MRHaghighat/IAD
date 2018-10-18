@@ -6408,6 +6408,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: absolute;
   bottom: 2px;
   height: 6px;
+  display: none; /*Saeed Mohammadi*/
   background-color: #aaa;
   border-radius: 6px;
   transition: background-color .2s linear, height .2s ease-in-out; }
@@ -7792,7 +7793,8 @@ canvas {
   padding: 0;
   margin: 0;
   background-color: #2b3643;
-  border-bottom: 1px solid #c8ced3; }
+  /* border-bottom: 1px solid #c8ced3;  */
+}
   .app-header .navbar-brand {
     display: inline-flex;
     align-items: center;
@@ -8786,7 +8788,7 @@ app-root {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  overflow-x: hidden; 
+  overflow: hidden; 
 }
   .app-body .main {
     flex: 1;
@@ -8807,7 +8809,7 @@ html:not([dir="rtl"]) .aside-menu {
   margin-right: -250px; }
 
 html[dir="rtl"] .sidebar {
-  margin-right: -217px; }
+  margin-right: -200px; }
 
 html[dir="rtl"] .aside-menu {
   left: 0;
@@ -9139,7 +9141,7 @@ html[dir="rtl"] .aside-menu-show.breadcrumb-fixed .breadcrumb {
   html:not([dir="rtl"]) .aside-menu-lg-show.breadcrumb-fixed .breadcrumb {
     right: 250px; }
   html[dir="rtl"] .sidebar-lg-show .sidebar {
-    margin-right: -17px; }
+    margin-right: 0px; }
   html[dir="rtl"] .sidebar-lg-show.sidebar-fixed .main,
   html[dir="rtl"] .sidebar-lg-show.sidebar-fixed .app-footer {
     margin-right: 200px; }
